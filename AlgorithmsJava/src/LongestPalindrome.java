@@ -5,7 +5,7 @@
 // }
 // return s.substring(start, end + 1);
 
-class Solution {
+class LongestPalindrome {
     public String longestPalindrome(String s) {
         if (s == null || s.length() < 1) return "";
 
@@ -42,7 +42,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        LongestPalindrome sol = new LongestPalindrome();
         String input = "babad";
         String result = sol.longestPalindrome(input);
         System.out.println("Longest Palindromic Substring: " + result);
